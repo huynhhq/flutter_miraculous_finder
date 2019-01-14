@@ -13,8 +13,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.blue,
-        accentColor: Colors.yellowAccent
+          primaryColor: Colors.blue,
+          accentColor: Colors.white
       ),
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),

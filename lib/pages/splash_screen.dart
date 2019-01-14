@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         radius: 50.0,
                         child: Icon(
                           Icons.search,
-                          color: Colors.greenAccent,
+                          color: Colors.blueAccent,
                           size: 50.0,
                         ),
                       ),
@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         padding: EdgeInsets.only(top: 10.0),
                       ),
                       Text(
-                        titleHomePage,
+                        kTitleHomePage,
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                       padding: EdgeInsets.only(top: 20.0),
                     ),
                     Text(
-                      slogan,
+                      kSlogan,
                       softWrap: true,
                       textAlign: TextAlign.center,
                       style: TextStyle(
