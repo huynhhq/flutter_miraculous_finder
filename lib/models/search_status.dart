@@ -1,0 +1,1 @@
+enum SearchStatus {search_intro, loading, error, no_term, success}

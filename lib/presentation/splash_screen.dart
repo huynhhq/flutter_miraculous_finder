@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_miraculous_finder/utils/constants.dart';
-import 'package:flutter_miraculous_finder/utils/navigator.dart';
+import 'package:flutter_miraculous_finder/commons/utils/constants.dart';
+import 'package:flutter_miraculous_finder/commons/utils/navigator.dart';
+import 'package:flutter_miraculous_finder/commons/icons.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -38,11 +39,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                       CircleAvatar(
                         backgroundColor: Colors.white,
                         radius: 50.0,
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.blueAccent,
-                          size: 50.0,
-                        ),
+                        child: GalleryAppIcons.ic_search_splash_screen,
                       ),
                       Padding(
                         padding: EdgeInsets.only(top: 10.0),
