@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_miraculous_finder/commons/utils/constants.dart';
+import 'package:flutter_miraculous_finder/commons/constants.dart';
 import 'package:flutter_miraculous_finder/commons/utils/navigator.dart';
 import 'package:flutter_miraculous_finder/commons/icons.dart';
 

@@ -11,9 +11,9 @@ var routes = <String, WidgetBuilder>{
 void main() => runApp(App());
 
 class App extends StatelessWidget {
-  final store = Store<AppState>(
-
-  );
+//  final store = Store<AppState>(
+//
+//  );
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_miraculous_finder/commons/utils/constants.dart';
+import 'package:flutter_miraculous_finder/commons/constants.dart';
 import 'package:flutter_miraculous_finder/models/sections.dart';
 import 'package:flutter_miraculous_finder/commons/icons.dart';
 
