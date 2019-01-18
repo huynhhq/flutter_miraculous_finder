@@ -10,16 +10,24 @@ class SetSearchResult{
   SetSearchResult(this.searchResult);
 }
 
+class SetFirstOpen {
+  final bool first;
+  SetFirstOpen(this.first);
+}
+
 final Function getSearchResult = (Store<AppState> store, int start, String searchValue) async {
   String url = "$GOOGLE_SEARCH_URL$searchValue";
   var result = await searchBaseData(url);
   if(result != ''){
-
+    _parseBaseData(result);
   }
   return null;
 };
 
 void _parseBaseData(String baseData){
   var document = parse(baseData);
-
+  var mainData = document.getElementsByClassName(kClassNameGoogle)[0];
+  var aTag = mainData.getElementsByTagName("a")[0];
+  var baseLink = aTag.attributes["href"];
+  print(baseLink);
 }

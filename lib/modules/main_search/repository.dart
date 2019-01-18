@@ -9,7 +9,4 @@ Future<String> searchBaseData(String url) async {
     return baseResult.body;
 }
 
-//Future<GoogleSearchResult> _search(String searchValue, int start) async {
-//  final response = await client.get(Uri.parse("$baseUrl$searchValue"));
-//  final results = json.decode(response.body);
-//}
+
